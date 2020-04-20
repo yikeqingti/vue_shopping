@@ -7,7 +7,7 @@ import axios from 'axios'
 
 Vue.prototype.$http = axios
     //配置请求根路径
-axios.defaults.baseURL = 'ttp://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
 Vue.use(VueRouter)
 
 const routes = [
